@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.william.to_do.com.example.william.easy_list.MostrarTarefaActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:visibility="visible">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="384dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/top2"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            android:title="@string/app_name"
+            android:titleTextColor="@color/white">
+
+        </android.support.v7.widget.Toolbar>
+
+        <TextView
+            android:id="@+id/nomenota"
+            style="@android:style/Theme.Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/toolbar"
+            android:editable="true"
+            android:focusableInTouchMode="true"
+            android:padding="10dp"
+            android:text="Texto Nota"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/nomedescricao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/nomenota"
+            android:layout_marginTop="20dp"
+            android:layout_toStartOf="@+id/tvhora2"
+            android:clickable="true"
+            android:editable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:inputType="text"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:text="Texto Descricao"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tvhora2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:padding="10dp"
+            android:text="Hora"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+
+        <TextView
+            android:id="@+id/tvdata2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/tvhora2"
+            android:padding="10dp"
+            android:text="Data"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+
+        <Button
+            android:id="@+id/buttonApagar"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_toEndOf="@+id/nomedescricao"
+            android:background="@drawable/end"
+            android:text="APAGAR"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

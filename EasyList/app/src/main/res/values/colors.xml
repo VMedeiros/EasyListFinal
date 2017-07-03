@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#002a4d</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#50b9e3</color>
+
+    <color name="primary">#22155a</color>
+    <!--<color name="primary_dark">#E12929</color>-->
+    <!--<color name="primary_darker">#CC1D1D</color>-->
+    <color name="accent">#00BFA5</color>
+    <color name="background">#e0f2f1</color>
+    <color name="secondary">#22155a</color>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#4958b1</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="pink">#E91E63</color>
+
+    <!--palheta meterial-->
+
+    <!--500 #009688-->
+    <!--50#E0F2F1-->
+    <!--100#B2DFDB-->
+    <!--200#80CBC4-->
+    <!--300#4DB6AC-->
+    <!--400#26A69A-->
+    <!--500#009688-->
+    <!--600#00897B-->
+    <!--700#00796B-->
+    <!--800#00695C-->
+    <!--900#004D40-->
+    <!--A100#A7FFEB-->
+    <!--A200#64FFDA-->
+    <!--A400#1DE9B6-->
+    <!--A700#00BFA5-->
+</resources>
